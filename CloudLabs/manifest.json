@@ -48,8 +48,8 @@
         "practice-tests.cloudlabs.ai"
     ],
     "webApplicationInfo": {
-        "id": "05fffa62-b974-460c-a8d1-b7e9ee6fbaf8",
-        "resource": "api://practice-tests.cloudlabs.ai/05fffa62-b974-460c-a8d1-b7e9ee6fbaf8"
+        "id": "539ffd4e-15ba-4d18-b136-0d73b67d05f0",
+        "resource": "api://practice-tests.cloudlabs.ai/539ffd4e-15ba-4d18-b136-0d73b67d05f0"
     },
     "devicePermissions": [
         "notifications",
