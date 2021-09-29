@@ -1,0 +1,58 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.9/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.9",
+    "version": "1.0.0",
+    "showLoadingIndicator": true,
+    "id": "ec483835-4185-4229-a976-32a20138ff9d",
+    "packageName": "cloudlabs",
+    "developer": {
+        "name": "Spektra Systems LLC",
+        "websiteUrl": "https://cloudlabs.ai/",
+        "privacyUrl": "https://spektrasystems.com/privacy-policy/",
+        "termsOfUseUrl": "https://cloudlabs.ai/terms-of-use/"
+    },
+    "icons": {
+        "color": "color.png",
+        "outline": "outline.png"
+    },
+    "name": {
+        "short": "CloudLabs",
+        "full": "CloudLabs"
+    },
+    "description": {
+        "short": "Practice tests and learning experiences inside your Microsoft Teams App",
+        "full": "CloudLabs is a hands-on lab and practice test platform, designed for learners to prepare for Microsoft Cloud certifications. With CloudLabs Teams App, you can now test your knowledge for Microsoft cloud technologies through CloudLabs Practice test and complete your certification goals.\n\nEach practice test is curated to cover the exam syllabus and provides an exam like experience to test your knowledge. CloudLabs Teams App is designed to bring Microsoft cloud learning experiences within your Microsoft Teams and will be bringing new learning experiences including demos, labs etc in your Teams workspace. Check out [https://cloudlabs.ai](https://cloudlabs.ai) to learn more about CloudLabs platform.\n\nDisclaimer: By downloading, accessing or using CloudLabs app or any page of this app, you signify your assent to this disclaimer. The contents of this app, including all data, information, text, graphics, links and other materials provided is owned by CloudLabs and is for the convenience to our app users and are meant to be used for informational purposes only. We do not take responsibility for decisions taken by the users based solely on the information provided in this app."
+    },
+    "accentColor": "#FFFFFF",
+    "staticTabs": [
+        {
+            "entityId": "practiceTests",
+            "name": "Practice Tests",
+            "contentUrl": "https://practice-tests.cloudlabs.ai/",
+            "scopes": [
+                "personal"
+            ]
+        },
+        {
+            "entityId": "about",
+            "scopes": [
+                "personal"
+            ]
+        }
+    ],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "validDomains": [
+        "practice-tests.cloudlabs.ai"
+    ],
+    "webApplicationInfo": {
+        "id": "05fffa62-b974-460c-a8d1-b7e9ee6fbaf8",
+        "resource": "api://practice-tests.cloudlabs.ai/05fffa62-b974-460c-a8d1-b7e9ee6fbaf8"
+    },
+    "devicePermissions": [
+        "notifications",
+        "openExternal"
+    ]
+}
